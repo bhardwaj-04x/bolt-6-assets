@@ -43465,3 +43465,152 @@
         input {
             -webkit-appearance: none;
         }
+
+/* =========================
+   GLOBAL RESET
+========================= */
+html, body {
+    margin: 0 !important;
+    padding: 0 !important;
+    background: #000 !important;
+    max-width: 2560px !important;
+}
+
+/* =========================
+   CONTAINER / ROW FIX
+========================= */
+.container,
+.row,
+.vc_row,
+.vc_row-fluid,
+.vc_row-full-width {
+    max-width: 100% !important;
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+/* =========================
+   INNER WRAPPERS
+========================= */
+.row-bg-wrap,
+.row-bg,
+.row-bg-layer,
+.inner-wrap {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+/* =========================
+   COLUMN FIX
+========================= */
+.vc_row-fluid > .span_12,
+.vc_row-fluid > .span_12 .wpb_column,
+.wpb_column,
+.vc_column-inner {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+/* =========================
+   CONTENT WRAPPER
+========================= */
+.wpb_wrapper {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/* =========================
+   REMOVE ANY LAST CHILD SPACE
+========================= */
+.row > .wpb_row:last-child,
+.vc_row:last-child {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/* =========================
+   FIX FOR FULL WIDTH ROWS
+========================= */
+.vc_row[data-vc-full-width="true"] {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+/* =========================
+   ULTRA WIDE SCREENS
+========================= */
+@media (min-width: 2600px) {
+    .row {
+        margin: 0 auto !important;
+        padding: 0 !important;
+    }
+}
+.my-no-gutter {
+    --bs-gutter-x: 0 !important;
+    --bs-gutter-y: 0 !important;
+}
+
+.my-no-gutter > * {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-top: 0 !important;
+}
+
+#shopify-section-template--20323862872242__se_bs_dawn_content_2023_tEfTJ4 #quotes_section {
+    background: linear-gradient(180deg, #00182b 0%, #000 96.5%) !important;
+}
+
+
+                #quotes_section {
+                    position: relative;
+
+                    background-size: 73em auto;
+                    background-color: ;
+                    background-position: center center;
+                    background-repeat: no-repeat;
+                    min-height: ;
+                    max-height: ;
+                    overflow-x: hidden;
+                }
+
+
+
+                #quotes_section #heroVid {
+                    position: absolute;
+                    height: 100%;
+                    min-height: ;
+                    object-fit: cover;
+                    left: ;
+                    transform: translateX(-50%);
+                    overflow: visible;
+                }
+
+
+                #quotes_section {
+                    padding: ;
+                }
+
+
+
+
+                .gradient-bg {
+                    background: linear-gradient(270deg, 0%, rgba(0, 0, 0, 0) 90%);
+                }
+
+                @media (max-width:767px) {
+                    #quotes_section {
+
+                        background-size: ;
+                        background-color: ;
+                        background-position: center center;
+                        background-repeat: no-repeat;
+                        min-height: ;
+                    }
+                }
