@@ -43476,21 +43476,6 @@ html, body {
     max-width: 2560px !important;
 }
 
-/* =========================
-   CONTAINER / ROW FIX
-========================= */
-.container,
-.row,
-.vc_row,
-.vc_row-fluid,
-.vc_row-full-width {
-    max-width: 100% !important;
-    width: 100% !important;
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-}
 
 /* =========================
    INNER WRAPPERS
@@ -43562,55 +43547,3 @@ html, body {
     padding-right: 0 !important;
     margin-top: 0 !important;
 }
-
-#shopify-section-template--20323862872242__se_bs_dawn_content_2023_tEfTJ4 #quotes_section {
-    background: linear-gradient(180deg, #00182b 0%, #000 96.5%) !important;
-}
-
-
-                #quotes_section {
-                    position: relative;
-
-                    background-size: 73em auto;
-                    background-color: ;
-                    background-position: center center;
-                    background-repeat: no-repeat;
-                    min-height: ;
-                    max-height: ;
-                    overflow-x: hidden;
-                }
-
-
-
-                #quotes_section #heroVid {
-                    position: absolute;
-                    height: 100%;
-                    min-height: ;
-                    object-fit: cover;
-                    left: ;
-                    transform: translateX(-50%);
-                    overflow: visible;
-                }
-
-
-                #quotes_section {
-                    padding: ;
-                }
-
-
-
-
-                .gradient-bg {
-                    background: linear-gradient(270deg, 0%, rgba(0, 0, 0, 0) 90%);
-                }
-
-                @media (max-width:767px) {
-                    #quotes_section {
-
-                        background-size: ;
-                        background-color: ;
-                        background-position: center center;
-                        background-repeat: no-repeat;
-                        min-height: ;
-                    }
-                }
