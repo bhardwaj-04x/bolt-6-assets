@@ -39824,19 +39824,7 @@ height:em;
     }
 }
 
-@media (min-width:2000px) {
-    #features {
-        background-image:
-            linear-gradient(180deg,
-                #000 6.06%,
-                rgba(1, 25, 44, 0.21) 29.55%,
-                #01192C 100%),
-            url('https://cdn.shopify.com/s/files/1/0095/4332/files/Vectors.png?v=1756887605');
-        background-size: auto 100%;
-        background-position: center center;
-        background-repeat: no-repeat;
-    }
-}
+
 
 #features .col-md-6 d-flex align-items-stretch {
     order: ;
