@@ -97561,3 +97561,242 @@ html {
  * Licensed under: SEE LICENSE IN https://github.com/OwlCarousel2/OwlCarousel2/blob/master/LICENSE
  */
 .owl-theme .owl-dots,.owl-theme .owl-nav{text-align:center;-webkit-tap-highlight-color:transparent}.owl-theme .owl-nav{margin-top:10px}.owl-theme .owl-nav [class*=owl-]{color:#FFF;font-size:14px;margin:5px;padding:4px 7px;background:#D6D6D6;display:inline-block;cursor:pointer;border-radius:3px}.owl-theme .owl-nav [class*=owl-]:hover{background:#869791;color:#FFF;text-decoration:none}.owl-theme .owl-nav .disabled{opacity:.5;cursor:default}.owl-theme .owl-nav.disabled+.owl-dots{margin-top:10px}.owl-theme .owl-dots .owl-dot{display:inline-block;zoom:1}.owl-theme .owl-dots .owl-dot span{width:10px;height:10px;margin:5px 7px;background:#D6D6D6;display:block;-webkit-backface-visibility:visible;transition:opacity .2s ease;border-radius:30px}.owl-theme .owl-dots .owl-dot.active span,.owl-theme .owl-dots .owl-dot:hover span{background:#869791}
+
+
+#quotes_section {
+  background: linear-gradient(180deg, #00182b 0%, #000 96.5%) !important;
+}
+.card {
+  border-radius: 16px !important;
+}
+
+@media (max-width: 767px) {
+  #compare_chart .prdctText {
+    height: 48px;
+  }
+  .endText {
+    font-size: 0.75rem !important;
+    line-height: 1rem !important;
+  }
+  #compare_chart .Comparison-products {
+    height: auto !important;
+  }
+}
+@media screen and (min-width: 768px) {
+  #compare_chart .Comparison-products {
+    height: auto !important;
+  }
+  #compare_chart a.compare-btn {
+    max-width: 192px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
+
+ #modalPlaceholder {
+      position: relative;
+      overflow: hidden;
+      z-index: 2147483647;
+      background-color: transparent;
+    }
+
+    /* body.modal-open #modalPlaceholder {
+          overflow: hidden;
+          z-index: 2147483647;
+          background-color: transparent;
+        }
+  */
+    .poster-wrapper {
+      border-radius: 16px;
+    }
+
+    .poster-wrapper img {
+      border-bottom-left-radius: 16px;
+      border-bottom-right-radius: 16px;
+    }
+
+    .vid_icn {
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      transition: all 0.3s;
+      width: 118.5px;
+      height: 118.5px;
+    }
+
+    .vid_icn:hover {
+      opacity: 1 !important;
+      transition: all 0.3s;
+      width: 128px !important;
+      height: 128px !important;
+    }
+
+    @media screen and (max-width: 767px) {
+
+
+      body.modal-open {
+        overflow-y: hidden !important;
+        /* padding-right:0 !important;
+              overflow-y: hidden !important;
+              top: unset; */
+      }
+
+      .vid_icn {
+        width: 59.08px;
+        height: 59.08px;
+      }
+
+      .vid_icn:hover {
+        opacity: 1 !important;
+        transition: all 0.3s;
+        width: 64px !important;
+        height: 64px !important;
+      }
+
+      /*
+          # .modal.fade.show .modal-dialog {
+              top: 0%;
+              transform: translateY(-50%);
+              transition: .5s ease-in-out;
+          } */
+
+    }
+    #{{ section.settings.uuid }} .play-btnCircle{
+    width: 4.43rem;
+    height: 4.43rem;
+    border-radius: 100%;
+    background-color: rgba(255, 255, 255, 0.65);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    transition: all 0.2s;
+    align-items: center;
+    justify-content: center;
+  }
+  #{{ section.settings.uuid }} .col-md-4 .card:hover .play-btnCircle{
+    width: 5rem;
+    height: 5rem;
+    transition: all 0.2s;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  #{{ section.settings.uuid }} .col-md-4 .card:hover .play-btnCircle i{
+     font-size: 1.2rem;
+     transition: all 0.1s;
+  }
+  #{{ section.settings.uuid }} .play-btnCircle:hover{
+    width: 5rem;
+    height: 5rem;
+    transition: all 0.2s;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  #{{ section.settings.uuid }} .play-btnCircle i{
+     transition: all 0.1s;
+  }
+  #{{ section.settings.uuid }} .play-btnCircle:hover i{
+     font-size: 1.2rem;
+     transition: all 0.1s;
+  }
+  .hmob-108{
+    height: 7rem;
+  }
+  .video-modal .modal-content, .video-modal .modal-body{
+    border-radius: 16px !important;
+  }
+  .video-modal .modal-content{
+    background: transparent !important;
+  }
+  @media (max-width: 767.5px){
+
+    .fs-38{
+      font-size: 2.375rem !important;
+      line-height: 3rem !important;
+    }
+    {% comment %} .boltOverview{
+      order: 2;
+    }
+    .ghzFreq{
+      order: 1;
+    }
+    .wifiZerodlay{
+      order: 3;
+    } {% endcomment %}
+    .hmob-108{
+      height: auto;
+    }
+    .play-btnCircle{
+    width: 3rem !important;
+    height: 3rem !important;
+  }
+  }
+          #resources-rebuild .col-md-6 {
+          order: ;
+        }
+
+        @media (max-width: 767px) {
+          #resources-rebuild .col-md-6 {
+            order: ;
+          }
+        }
+
+         #resources_id-card-wrapper.row {
+        /* padding-left:0;
+          padding-right:0; */
+      }
+
+      #resources_id-card-wrapper.row>* {
+        /* padding-left:unset;
+          padding-right:unset; */
+      }
+
+      #resources_id-card-wrapper {
+        display: flex;
+        /* row-gap: 1.2rem;
+             column-gap: 1.2rem; */
+      }
+
+      .rsrc-card {
+        height: 100%;
+      }
+
+      @media (max-width:767px) {
+        #resources_id-card-wrapper {
+          display: flex;
+          /* grid-gap:24px; */
+          /* row-gap: 1.2rem;
+          column-gap: 1.2rem; */
+        }
+
+        .rsrc-card {
+          height: 100%;
+        }
+
+      }
+
+      #resources_id .resource-prod-card>a {
+        text-decoration: none;
+      }
+
+      #resources_id .card {
+        border-radius: 16px;
+        cursor: pointer;
+        overflow: hidden;
+
+      }
+
+      #resources_id .card {
+        transition: all 0.4s ease;
+        border: 2px solid transparent;
+      }
+
+      #resources_id .card:hover {
+        border: 2px solid #dcdcde;
+        box-shadow: 4px 8px 16px 0px rgba(0, 0, 0, 0.15);
+
+
+      }
+
+      #resources_id .card:active {
+        border: 2px solid #545454;
+        box-shadow: 4px 8px 16px 0px rgba(0, 0, 0, 0.15);
+      }
